@@ -1,0 +1,14 @@
+body, html {
+    margin:0;
+    padding:3;
+    font: size 5rem;
+    font-size: 4rem;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  div {
+    display:none;
+  }
+  canvas {
+    width:100vw;
+    height:100vh;
+  }

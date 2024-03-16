@@ -961,7 +961,7 @@ background-color: #cecb0f;
     padding: 2rem;
     max-width: 1280px;
     height: 35vh;
-    margin: auto;
+    margin:auto;
     border-radius: 9px;
     margin-top: 8rem;
     margin-bottom: 10rem;
@@ -1094,6 +1094,7 @@ background-color: #cecb0f;
     }
     .newsletter-container{
         padding: 2rem;
+        margin: auto;
     }
     
     
@@ -1104,9 +1105,10 @@ background-color: #cecb0f;
     .news-title{
         font-size: 2.5;
     }
-    .newsletter-container{
+    /* .newsletter-container{
         padding: 2rem;
-    }
+        margin: auto;
+    } */
     
     
 }
@@ -1273,8 +1275,9 @@ ul{
     box-shadow: rgba(163, 166, 167, 0.56) 0px 22px 70px 4px;
    
     border: 20px solid  rgb(255, 255, 255);
-
+     margin: auto;
     margin-top: 15rem;
+
 }
 /* .footer:hover{
     transform:perspective(100px) rotateX(5deg);

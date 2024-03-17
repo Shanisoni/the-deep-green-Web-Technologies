@@ -1350,11 +1350,33 @@ ul{
 
 
 
+.logo-text{
+    /* font-family: Arial; */
+    /* font-size: 50px; */
+    animation: fadeIn 2.8s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 
 
+  .shani  {
+    /* font-family: Arial;
+    font-size: 50px; */
+    animation: fadeIn 1s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
 
 
+  .newsletter-container{
+    margin-top: 6rem;
+  }
 
 
 

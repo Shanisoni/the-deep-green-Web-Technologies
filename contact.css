@@ -226,3 +226,18 @@
 	  padding: 0;
 	}
   }
+
+
+
+
+
+  
+body  {
+    /* font-family: Arial;
+    font-size: 50px; */
+    animation: fadeIn 1.5s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

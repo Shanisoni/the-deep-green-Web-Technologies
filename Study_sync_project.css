@@ -60,6 +60,12 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.ml3 {
+    background: -webkit-linear-gradient(#06f07b, #032e12);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 .nav{
     display: none;
     gap: 1.4rem;
@@ -1380,6 +1386,26 @@ ul{
 
 
 
+
+
+
+  .m{
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .m .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
+
+
+
+
+
+  /* ***********   Text Animation*********** */
 
 
 

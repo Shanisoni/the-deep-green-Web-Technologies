@@ -8,42 +8,169 @@
     <link rel="stylesheet" href="Store.css" >
 </head>
 <style>
-    .m{
-  font-weight: 900;
-  font-size: 3.5em;
-}
 
-.m .letter {
-  display: inline-block;
-  line-height: 1em;
-}
+
+  #video-background {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15rem; /* Adjust this value to set the height of the video banner */
+    z-index: -1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  #video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  #video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+    
+  }
+
+  #video-overlay p {
+    font-size: 4em;
+    padding: 0.2rem;
+    margin-bottom: 710px;
+    color: rgb(253, 254, 255);
+    background: -webkit-linear-gradient(#ffffff, #504c4e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* border: solid 1px rgb(18, 18, 31); */
+    /* box-shadow: rgba(41, 56, 187, 0.56) 0px 22px 70px 4px;
+    border-radius: 44rem;
+     */
+  }
+  h1{
+    color: aqua;
+  }
     /* .ml3 {
     font-weight: 900;
     font-size: 3.5em;
   } */
-</style>
-<body class="body_container">
 
-    <div class="container">
+  
+  /* .demo{
+    border: 1rem solid red ;
+  } */
+
+
+  /* .mono{
+    height: 50rem;
+    width: 100rem;
+  } */
+
+  .asap{
+
+    margin-bottom: 5rem;
+
+  }
+
+  .margin{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-bottom: 5rem;
+    /* border-bottom-right-radius: 4rem; */
+    margin-right: -9rem;
+    margin-top: -0.46rem;
+    width: 120rem;
+    border: solid 4px rgb(10, 38, 133) ;
+    
+  }
+
+  .ml3{
+    font-size: large;
+    font-weight: bold;
+    
+  }
+
+
+  /* .img{
+height: 100px;
+width: 100px;
+position: absolute;
+  } */
+
+</style>
+<body>
+    
+        <div class="margin">
+
+       
+        <div id="video-background">
+            <video autoplay muted loop>
+              <source src="tunnel_.mp4" type="video/mp4" class="asap">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div id="video-overlay">
+            <p class="ml3">the-deep-green</p>
+           
+          </div>
+
+        </div>
+          
+  <!-- <div class="body_container"> -->
+
+    
+
+
+
+
+    
+
+    <div class="container"> 
+        
 
        
 
         <header class="header_container">
 
-            <h1 class="header_title" >
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-                <p  class="ml3">the deep green</p>
+         
+                
 
-            </h1>
-
-            <p class="header_desc">Lorem ipsum dolor sit amet consectetur, 
-                adipisicing elit. Consectetur aliquam magni                                                               numquam vel 
-                voluptatum, accusantium ipsum pariatur.
-
-            </p>
-
-        </header>
+                <h1 class="header_title" >
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+                    <p  class="ml3"></p>
         
+                </h1>
+
+
+
+         
+           
+
+
+        </header> 
+
+
+        
+        
+
+        <p class="header_desc">Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Consectetur aliquam magni                                                               numquam vel 
+            voluptatum, accusantium ipsum pariatur.
+
+        </p>
+
+
+        <!-- <section class="img">
+            <img src="1.jpg" alt="wait">
+        </section>
+         -->
 
         <main class="main_container">
 
@@ -1908,5 +2035,6 @@
     
 
     <script src="store.js"></script>
+</div>
 </body>
 </html>

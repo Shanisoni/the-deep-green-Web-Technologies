@@ -355,7 +355,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 4px solid rgb(187, 197, 50) ;
     background-color: #d8e61a;
     height: 4rem;
-    width: 25rem;
+    width: 22rem;
     
   }
 
@@ -409,8 +409,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 .card_container:hover .card_image{
     transform: scale(1.1);
-    transition-duration: 200ms;
-    padding: 1.5rem;
+    transition-duration: 650ms;
+    /* padding: 0.5rem; */
     
 }
 .card_title{
